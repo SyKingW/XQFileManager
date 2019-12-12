@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30ED510CEDF6FD219A064B9D7BFC40DB /* Pods-XQFileManagerDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5F6186DDBE3C290383613585C4B238C /* Pods-XQFileManagerDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		448D702BD1D43328B881EE3AF87025EE /* Pods-XQFileManagerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 915A92075F2B63372D8B55E5DA04E861 /* Pods-XQFileManagerDemo-dummy.m */; };
+		5F366E1028A8D3AD652EA8B07A10F955 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8FE10F1F0E8331EE4B61A8DEE48B454A /* XQFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A808E46A665C5C43565C7CB7A6E6796F /* XQFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7BD6426B10ABC4E8BB5EE3DCE650A02 /* XQFileManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9471F81B1C073D91D671892A1D9367BA /* XQFileManager-dummy.m */; };
+		C57766910CD6A52170C2F3D3D920A12A /* XQFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C200C56D98D03BBBDD0A5AB8E37E58 /* XQFileManager.m */; };
+		C6914605B3CBA5A8E0CCC0CC27361C71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E227D3CEBB207D95EE26F298D1C88EAF /* XQFileManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71876C1D8553D88E2E4FEE3C5C6D01DE /* XQFileManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6914DA218859AF95090ED5E451F07AC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C3011DAFD9FF5968D31063D0D2957F3;
+			remoteInfo = XQFileManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14C200C56D98D03BBBDD0A5AB8E37E58 /* XQFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XQFileManager.m; path = SDK/XQFileManager.m; sourceTree = "<group>"; };
+		2AE29A99F67675D389B1639813CC2875 /* XQFileManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XQFileManager-prefix.pch"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4C63814D4BD901631207532E02B09F3D /* Pods-XQFileManagerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XQFileManagerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		5E491DB050B39DFBD52869C6F459347F /* Pods-XQFileManagerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XQFileManagerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		71876C1D8553D88E2E4FEE3C5C6D01DE /* XQFileManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XQFileManager-umbrella.h"; sourceTree = "<group>"; };
+		74E9638F133A62D65004B21B6EF31A9C /* Pods-XQFileManagerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XQFileManagerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		915A92075F2B63372D8B55E5DA04E861 /* Pods-XQFileManagerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XQFileManagerDemo-dummy.m"; sourceTree = "<group>"; };
+		9471F81B1C073D91D671892A1D9367BA /* XQFileManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XQFileManager-dummy.m"; sourceTree = "<group>"; };
+		949A718DF9EE94F0086B3E2E8F6A34B1 /* XQFileManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XQFileManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		988E29C6E2BAA841F8C58A78273BED73 /* Pods-XQFileManagerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XQFileManagerDemo-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A808E46A665C5C43565C7CB7A6E6796F /* XQFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XQFileManager.h; path = SDK/XQFileManager.h; sourceTree = "<group>"; };
+		AF3130B784062626E13C9F9371152679 /* XQFileManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XQFileManager.modulemap; sourceTree = "<group>"; };
+		B984E1648669D5BD4D17B167B966163F /* Pods-XQFileManagerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XQFileManagerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C5F6186DDBE3C290383613585C4B238C /* Pods-XQFileManagerDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XQFileManagerDemo-umbrella.h"; sourceTree = "<group>"; };
+		C9E667CAC6C35CBDBB143A81C857EF4A /* Pods_XQFileManagerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XQFileManagerDemo.framework; path = "Pods-XQFileManagerDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B98B3265248D473B7C2E9E73A54D52 /* XQFileManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XQFileManager.xcconfig; sourceTree = "<group>"; };
+		F4AEBEA693DC40300AC868E4BCC321E7 /* XQFileManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XQFileManager.framework; path = XQFileManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE26B74DB90C33E5DA268E940AF7A71 /* Pods-XQFileManagerDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XQFileManagerDemo.modulemap"; sourceTree = "<group>"; };
+		FD0F090CCDBF8D8B28739B48857A320F /* XQFileManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XQFileManager-Info.plist"; sourceTree = "<group>"; };
+		FFDB23DB808CBD7073BD64DA9B921CAB /* Pods-XQFileManagerDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XQFileManagerDemo-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E21A8AC32927C6A3C1FDA9020BDAF06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F366E1028A8D3AD652EA8B07A10F955 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66819732584F6F215C3E8B95A930E459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6914605B3CBA5A8E0CCC0CC27361C71 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D2A4CEE1E091249182F6E934593AC71 /* XQFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				A808E46A665C5C43565C7CB7A6E6796F /* XQFileManager.h */,
+				14C200C56D98D03BBBDD0A5AB8E37E58 /* XQFileManager.m */,
+				560D733B092FF36914562E02A3018272 /* Pod */,
+				B32E25A33DAE21CE1B684394CCCF7563 /* Support Files */,
+			);
+			name = XQFileManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		560D733B092FF36914562E02A3018272 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				949A718DF9EE94F0086B3E2E8F6A34B1 /* XQFileManager.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7A043C6E8D3F6F3DC1D9416371259E41 /* Pods-XQFileManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FCE26B74DB90C33E5DA268E940AF7A71 /* Pods-XQFileManagerDemo.modulemap */,
+				74E9638F133A62D65004B21B6EF31A9C /* Pods-XQFileManagerDemo-acknowledgements.markdown */,
+				4C63814D4BD901631207532E02B09F3D /* Pods-XQFileManagerDemo-acknowledgements.plist */,
+				915A92075F2B63372D8B55E5DA04E861 /* Pods-XQFileManagerDemo-dummy.m */,
+				988E29C6E2BAA841F8C58A78273BED73 /* Pods-XQFileManagerDemo-frameworks.sh */,
+				FFDB23DB808CBD7073BD64DA9B921CAB /* Pods-XQFileManagerDemo-Info.plist */,
+				C5F6186DDBE3C290383613585C4B238C /* Pods-XQFileManagerDemo-umbrella.h */,
+				B984E1648669D5BD4D17B167B966163F /* Pods-XQFileManagerDemo.debug.xcconfig */,
+				5E491DB050B39DFBD52869C6F459347F /* Pods-XQFileManagerDemo.release.xcconfig */,
+			);
+			name = "Pods-XQFileManagerDemo";
+			path = "Target Support Files/Pods-XQFileManagerDemo";
+			sourceTree = "<group>";
+		};
+		7C54D43DA85937FF40D2837B39B22C8D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D2A4CEE1E091249182F6E934593AC71 /* XQFileManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9BD1EA68019666232BA0D025E0C905BA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A043C6E8D3F6F3DC1D9416371259E41 /* Pods-XQFileManagerDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B32E25A33DAE21CE1B684394CCCF7563 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF3130B784062626E13C9F9371152679 /* XQFileManager.modulemap */,
+				D4B98B3265248D473B7C2E9E73A54D52 /* XQFileManager.xcconfig */,
+				9471F81B1C073D91D671892A1D9367BA /* XQFileManager-dummy.m */,
+				FD0F090CCDBF8D8B28739B48857A320F /* XQFileManager-Info.plist */,
+				2AE29A99F67675D389B1639813CC2875 /* XQFileManager-prefix.pch */,
+				71876C1D8553D88E2E4FEE3C5C6D01DE /* XQFileManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "XQFileManagerDemo/Pods/Target Support Files/XQFileManager";
+			sourceTree = "<group>";
+		};
+		B8AAABCF2292D49EDAC24BB48F08BDDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9E667CAC6C35CBDBB143A81C857EF4A /* Pods_XQFileManagerDemo.framework */,
+				F4AEBEA693DC40300AC868E4BCC321E7 /* XQFileManager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7C54D43DA85937FF40D2837B39B22C8D /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B8AAABCF2292D49EDAC24BB48F08BDDB /* Products */,
+				9BD1EA68019666232BA0D025E0C905BA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		75751C86922A63F278AA6A5FE574EF72 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E227D3CEBB207D95EE26F298D1C88EAF /* XQFileManager-umbrella.h in Headers */,
+				8FE10F1F0E8331EE4B61A8DEE48B454A /* XQFileManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B2B829B98F72508552F28234B99150 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30ED510CEDF6FD219A064B9D7BFC40DB /* Pods-XQFileManagerDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		47D72458458A11770CE660A9F0F44248 /* Pods-XQFileManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A15D15EFE42DFDD76BC5D289D0FA587 /* Build configuration list for PBXNativeTarget "Pods-XQFileManagerDemo" */;
+			buildPhases = (
+				98B2B829B98F72508552F28234B99150 /* Headers */,
+				8D29F63B863730A617DBA62240C65236 /* Sources */,
+				3E21A8AC32927C6A3C1FDA9020BDAF06 /* Frameworks */,
+				680942BC7A5899D33AF59A76A27BBD0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFE350EE6238D989359C37CC48158417 /* PBXTargetDependency */,
+			);
+			name = "Pods-XQFileManagerDemo";
+			productName = "Pods-XQFileManagerDemo";
+			productReference = C9E667CAC6C35CBDBB143A81C857EF4A /* Pods_XQFileManagerDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8C3011DAFD9FF5968D31063D0D2957F3 /* XQFileManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5316A4C8AE22E559D3ED9E93B8B1E5B /* Build configuration list for PBXNativeTarget "XQFileManager" */;
+			buildPhases = (
+				75751C86922A63F278AA6A5FE574EF72 /* Headers */,
+				ACE19DF6C427566F267156A39E111DA1 /* Sources */,
+				66819732584F6F215C3E8B95A930E459 /* Frameworks */,
+				A7AB1F5557814A13AD39E27E390240E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XQFileManager;
+			productName = XQFileManager;
+			productReference = F4AEBEA693DC40300AC868E4BCC321E7 /* XQFileManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B8AAABCF2292D49EDAC24BB48F08BDDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47D72458458A11770CE660A9F0F44248 /* Pods-XQFileManagerDemo */,
+				8C3011DAFD9FF5968D31063D0D2957F3 /* XQFileManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		680942BC7A5899D33AF59A76A27BBD0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AB1F5557814A13AD39E27E390240E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D29F63B863730A617DBA62240C65236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448D702BD1D43328B881EE3AF87025EE /* Pods-XQFileManagerDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE19DF6C427566F267156A39E111DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7BD6426B10ABC4E8BB5EE3DCE650A02 /* XQFileManager-dummy.m in Sources */,
+				C57766910CD6A52170C2F3D3D920A12A /* XQFileManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFE350EE6238D989359C37CC48158417 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XQFileManager;
+			target = 8C3011DAFD9FF5968D31063D0D2957F3 /* XQFileManager */;
+			targetProxy = 6914DA218859AF95090ED5E451F07AC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20F48F4FB9E3B38D874E4EA5544A5D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B984E1648669D5BD4D17B167B966163F /* Pods-XQFileManagerDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XQFileManagerDemo/Pods-XQFileManagerDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XQFileManagerDemo/Pods-XQFileManagerDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4EDE8231178B720D4F44BA792FCCBD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4B98B3265248D473B7C2E9E73A54D52 /* XQFileManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XQFileManager/XQFileManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XQFileManager/XQFileManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XQFileManager/XQFileManager.modulemap";
+				PRODUCT_MODULE_NAME = XQFileManager;
+				PRODUCT_NAME = XQFileManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C6AF2C23B6DE1538150B801D05C85E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4B98B3265248D473B7C2E9E73A54D52 /* XQFileManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XQFileManager/XQFileManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XQFileManager/XQFileManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XQFileManager/XQFileManager.modulemap";
+				PRODUCT_MODULE_NAME = XQFileManager;
+				PRODUCT_NAME = XQFileManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BF0B1B5E58C8E3D2E40CD33A464D5A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E491DB050B39DFBD52869C6F459347F /* Pods-XQFileManagerDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XQFileManagerDemo/Pods-XQFileManagerDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XQFileManagerDemo/Pods-XQFileManagerDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A15D15EFE42DFDD76BC5D289D0FA587 /* Build configuration list for PBXNativeTarget "Pods-XQFileManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F48F4FB9E3B38D874E4EA5544A5D32 /* Debug */,
+				BF0B1B5E58C8E3D2E40CD33A464D5A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5316A4C8AE22E559D3ED9E93B8B1E5B /* Build configuration list for PBXNativeTarget "XQFileManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C6AF2C23B6DE1538150B801D05C85E1 /* Debug */,
+				4EDE8231178B720D4F44BA792FCCBD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

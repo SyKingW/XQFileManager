@@ -1,0 +1,16 @@
+PODS:
+  - XQFileManager (1.0.0)
+
+DEPENDENCIES:
+  - XQFileManager (from `../`)
+
+EXTERNAL SOURCES:
+  XQFileManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XQFileManager: 2342e64c465c08f60e14e65961118a10490128c3
+
+PODFILE CHECKSUM: 9d6ecdce2b3e2b5bb0590caee13efbfad4963a13
+
+COCOAPODS: 1.8.4

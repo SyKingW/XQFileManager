@@ -1,0 +1,20 @@
+{
+  "name": "XQFileManager",
+  "version": "1.0.0",
+  "homepage": "https://github.com/SyKingW/XQFileManager",
+  "summary": "一些项目里面要用到的’小公举’.",
+  "license": "MIT",
+  "authors": {
+    "王兴乾": "1034439685@qq.com"
+  },
+  "platforms": {
+    "osx": "10.13",
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/SyKingW/XQProjectTool.git",
+    "tag": "1.0.0"
+  },
+  "requires_arc": true,
+  "source_files": "SDK/**/*.{h,m,swift}"
+}

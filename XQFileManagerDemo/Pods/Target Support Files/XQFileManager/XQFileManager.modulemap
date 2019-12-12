@@ -1,0 +1,6 @@
+framework module XQFileManager {
+  umbrella header "XQFileManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -80,7 +80,7 @@
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     [dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
     NSString *datestr = [dateFormatter stringFromDate:[NSDate date]];
-    NSString *writeStr = [NSString stringWithFormat:@"\n%@\n%@",datestr, str];
+    NSString *writeStr = [NSString stringWithFormat:@"\n%@\n%@\n\n",datestr, str];
     return [self xq_writeDataToLastWithStr:writeStr filePath:filePath];
 }
 
